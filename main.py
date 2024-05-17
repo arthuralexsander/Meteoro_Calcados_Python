@@ -396,12 +396,14 @@ def consultavenda():
     tamanho = vendas.tamanho.setText(str(selecao[0][5]))
     valor = vendas.mvalor.setText(str(selecao[0][7]))
 
+#definir o subtotal ao trocar a linha 
 def subtotal():
     precounit = vendas.mvalor.text()
     qtd = vendas.inserirqtd.text()
     subtotal = float(qtd)*float(precounit)
     subtotal1 = vendas.subtotal.setText(str(subtotal))
 
+#adicionar item ao carrinho
 def adicionaritem():
     vCod = vendas.inserircod.text()
     nome = vendas.modelo.text()
@@ -417,6 +419,7 @@ def adicionaritem():
     banco.commit()
     print('Foi pro cart')
 
+#limpar campos ao adicionar
 def limpar():
     nome = vendas.modelo.setText('')
     marca = vendas.marca.setText('')
@@ -434,6 +437,7 @@ def apagarvendas():
     qtd = vendas.inserirqtd.setText('')
     subtotal = vendas.subtotal.setText('')
 
+#mostrar carrinho
 def mostrarcart():
     Cursor = banco.cursor()
     sql = "SELECT * from carrinho"
@@ -449,6 +453,7 @@ def mostrarcart():
     ptotal = Cursor.fetchall()
     ptotal1 = vendas.valortotal.setText(str(ptotal[0][0]))
 
+#finalizar o pagamento
 def finalizar():
     pagamento.show()
     Cursor = banco.cursor()
@@ -456,7 +461,7 @@ def finalizar():
     Cursor.execute(total)
     ptotal = Cursor.fetchall()
     pagamento1 = pagamento.valortotal.setText(str(ptotal[0][0]))
-
+#remover um item do carrinho
 def remover():
     rCod = vendas.inserircod.text()
     Cursor = banco.cursor()
