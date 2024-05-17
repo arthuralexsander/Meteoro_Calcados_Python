@@ -461,6 +461,7 @@ def finalizar():
     Cursor.execute(total)
     ptotal = Cursor.fetchall()
     pagamento1 = pagamento.valortotal.setText(str(ptotal[0][0]))
+    
 #remover um item do carrinho
 def remover():
     rCod = vendas.inserircod.text()
