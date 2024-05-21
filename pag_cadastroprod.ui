@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1118</width>
-    <height>681</height>
+    <width>1120</width>
+    <height>680</height>
    </rect>
   </property>
   <property name="font">
@@ -330,7 +330,7 @@ background-color: rgb(255, 255, 255);</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>Meteoro_Calçados_Logo-removebg-preview.png</pixmap>
+      <pixmap>IMAGENS/Meteoro_Calçados_Logo-removebg-preview.png</pixmap>
      </property>
      <property name="scaledContents">
       <bool>true</bool>
@@ -428,7 +428,7 @@ color: rgb(255, 255, 255);</string>
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>image.png</normaloff>image.png</iconset>
+      <normaloff>IMAGENS/image.png</normaloff>IMAGENS/image.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -455,7 +455,7 @@ background-color: rgb(36, 36, 36);</string>
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>pngtree-arrow-left-flat-white-color-icon-move-back-less-photo-picture-image_7920547-removebg-preview.png</normaloff>pngtree-arrow-left-flat-white-color-icon-move-back-less-photo-picture-image_7920547-removebg-preview.png</iconset>
+      <normaloff>IMAGENS/pngtree-arrow-left-flat-white-color-icon-move-back-less-photo-picture-image_7920547-removebg-preview.png</normaloff>IMAGENS/pngtree-arrow-left-flat-white-color-icon-move-back-less-photo-picture-image_7920547-removebg-preview.png</iconset>
     </property>
    </widget>
    <widget class="QLineEdit" name="inserir_tamanho">
@@ -582,7 +582,7 @@ background-color: rgb(36, 36, 36);</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1118</width>
+     <width>1120</width>
      <height>21</height>
     </rect>
    </property>

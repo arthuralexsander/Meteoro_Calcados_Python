@@ -154,7 +154,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>4745448.png</pixmap>
+     <pixmap>IMAGENS/4745448.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -173,7 +173,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>3176088.png</pixmap>
+     <pixmap>IMAGENS/3176088.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -182,8 +182,8 @@ color: rgb(255, 255, 255);</string>
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>670</x>
-      <y>330</y>
+      <x>650</x>
+      <y>320</y>
       <width>121</width>
       <height>111</height>
      </rect>
@@ -192,7 +192,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>753173.png</pixmap>
+     <pixmap>IMAGENS/753173.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -211,7 +211,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>Meteoro_Calçados_Logo-removebg-preview.png</pixmap>
+     <pixmap>IMAGENS/Meteoro_Calçados_Logo-removebg-preview.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -235,7 +235,7 @@ background-color: rgb(36, 36, 36);</string>
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>pngtree-arrow-left-flat-white-color-icon-move-back-less-photo-picture-image_7920547-removebg-preview.png</normaloff>pngtree-arrow-left-flat-white-color-icon-move-back-less-photo-picture-image_7920547-removebg-preview.png</iconset>
+      <normaloff>IMAGENS/pngtree-arrow-left-flat-white-color-icon-move-back-less-photo-picture-image_7920547-removebg-preview.png</normaloff>IMAGENS/pngtree-arrow-left-flat-white-color-icon-move-back-less-photo-picture-image_7920547-removebg-preview.png</iconset>
     </property>
    </widget>
    <widget class="QPushButton" name="bt_vendas">
@@ -277,7 +277,7 @@ color: rgb(255, 255, 255);</string>
     <property name="geometry">
      <rect>
       <x>880</x>
-      <y>330</y>
+      <y>320</y>
       <width>151</width>
       <height>121</height>
      </rect>
@@ -286,7 +286,7 @@ color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>carrinho.png</pixmap>
+     <pixmap>IMAGENS/carrinho.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -325,6 +325,8 @@ color: rgb(255, 255, 255);</string>
   <tabstop>bt_telacadpessoas</tabstop>
   <tabstop>bt_voltarinicial</tabstop>
  </tabstops>
- <resources/>
+ <resources>
+  <include location="voltar.qrc"/>
+ </resources>
  <connections/>
 </ui>

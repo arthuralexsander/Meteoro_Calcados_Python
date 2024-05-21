@@ -86,7 +86,7 @@
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap>C:/Users/963914/Downloads/Meteoro_Calçados_Logo-removebg-preview.png</pixmap>
+      <pixmap>IMAGENS/Meteoro_Calçados_Logo-removebg-preview.png</pixmap>
      </property>
      <property name="scaledContents">
       <bool>true</bool>
@@ -129,7 +129,7 @@
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>C:/Users/963914/Downloads/image-removebg-preview (1).png</normaloff>C:/Users/963914/Downloads/image-removebg-preview (1).png</iconset>
+      <normaloff>IMAGENS/image-removebg-preview (1).png</normaloff>IMAGENS/image-removebg-preview (1).png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -156,7 +156,7 @@ background-color: rgb(36, 36, 36);</string>
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>pngtree-arrow-left-flat-white-color-icon-move-back-less-photo-picture-image_7920547-removebg-preview.png</normaloff>pngtree-arrow-left-flat-white-color-icon-move-back-less-photo-picture-image_7920547-removebg-preview.png</iconset>
+      <normaloff>IMAGENS/pngtree-arrow-left-flat-white-color-icon-move-back-less-photo-picture-image_7920547-removebg-preview.png</normaloff>IMAGENS/pngtree-arrow-left-flat-white-color-icon-move-back-less-photo-picture-image_7920547-removebg-preview.png</iconset>
     </property>
    </widget>
    <widget class="QTableWidget" name="dados_estoque">

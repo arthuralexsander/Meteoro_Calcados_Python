@@ -94,7 +94,7 @@ background-color: rgb(36, 36, 36);</string>
      </property>
      <property name="icon">
       <iconset>
-       <normaloff>pngtree-arrow-left-flat-white-color-icon-move-back-less-photo-picture-image_7920547-removebg-preview.png</normaloff>pngtree-arrow-left-flat-white-color-icon-move-back-less-photo-picture-image_7920547-removebg-preview.png</iconset>
+       <normaloff>IMAGENS/pngtree-arrow-left-flat-white-color-icon-move-back-less-photo-picture-image_7920547-removebg-preview.png</normaloff>IMAGENS/pngtree-arrow-left-flat-white-color-icon-move-back-less-photo-picture-image_7920547-removebg-preview.png</iconset>
      </property>
     </widget>
    </widget>
@@ -434,6 +434,19 @@ background-color: rgb(36, 36, 36);</string>
       <string>R$</string>
      </property>
     </widget>
+    <zorder>label_12</zorder>
+    <zorder>label_13</zorder>
+    <zorder>mvalor</zorder>
+    <zorder>subtotal</zorder>
+    <zorder>inserirqtd</zorder>
+    <zorder>valortotal</zorder>
+    <zorder>label_3</zorder>
+    <zorder>label_4</zorder>
+    <zorder>label_5</zorder>
+    <zorder>label_6</zorder>
+    <zorder>label_7</zorder>
+    <zorder>desconto</zorder>
+    <zorder>label_14</zorder>
    </widget>
    <widget class="QLabel" name="label_8">
     <property name="geometry">

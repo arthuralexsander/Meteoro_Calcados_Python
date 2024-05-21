@@ -471,6 +471,12 @@ def remover():
     banco.commit()
     print('removido')
 
+def finalizacao():
+    deletar = "TRUNCATE TABLE carrinho"
+    Cursor = banco.cursor()
+    Cursor.execute(deletar)
+    banco.commit()
+    
 #Carregamento de Telas
 principal = uic.loadUi('pag_inicial.ui')
 login = uic.loadUi('pag_login.ui')
@@ -524,7 +530,7 @@ vendas.bt_finalizar.clicked.connect(finalizar)
 vendas.bt_remover.clicked.connect(remover)
 vendas.bt_remover.clicked.connect(mostrarcart)
 vendas.bt_apagar.clicked.connect(apagarvendas)
-
+vendas.bt_finalizar.clicked.connect(finalizacao)
 #iniciar mostrando o login
 login.show()
 

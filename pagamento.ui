@@ -85,7 +85,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>C:/Users/963914/Downloads/Meteoro_Calçados_Logo-removebg-preview.png</pixmap>
+     <pixmap>IMAGENS/Meteoro_Calçados_Logo-removebg-preview.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -184,7 +184,7 @@ color: rgb(255, 255, 255);</string>
    </property>
    <property name="icon">
     <iconset>
-     <normaloff>download (8).png</normaloff>download (8).png</iconset>
+     <normaloff>IMAGENS/download (8).png</normaloff>IMAGENS/download (8).png</iconset>
    </property>
    <property name="iconSize">
     <size>
@@ -226,7 +226,7 @@ color: rgb(255, 255, 255);</string>
    </property>
    <property name="icon">
     <iconset>
-     <normaloff>download (1).png</normaloff>download (1).png</iconset>
+     <normaloff>IMAGENS/download (1).png</normaloff>IMAGENS/download (1).png</iconset>
    </property>
    <property name="iconSize">
     <size>
@@ -268,7 +268,7 @@ color: rgb(255, 255, 255);</string>
    </property>
    <property name="icon">
     <iconset>
-     <normaloff>download (7).png</normaloff>download (7).png</iconset>
+     <normaloff>IMAGENS/download (7).png</normaloff>IMAGENS/download (7).png</iconset>
    </property>
    <property name="iconSize">
     <size>
@@ -310,7 +310,7 @@ color: rgb(255, 255, 255);</string>
    </property>
    <property name="icon">
     <iconset>
-     <normaloff>download (6).png</normaloff>download (6).png</iconset>
+     <normaloff>IMAGENS/download (6).png</normaloff>IMAGENS/download (6).png</iconset>
    </property>
    <property name="iconSize">
     <size>

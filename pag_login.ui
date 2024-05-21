@@ -31,7 +31,7 @@ background-color: rgb(255, 255, 255);</string>
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>Meteoro_Calçados_Logo-removebg-preview.png</pixmap>
+     <pixmap>IMAGENS/Meteoro_Calçados_Logo-removebg-preview.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -170,7 +170,7 @@ color: rgb(255, 255, 255);</string>
   <tabstop>bt_login</tabstop>
  </tabstops>
  <resources>
-  <include location="C:/Users/964742/AppData/Local/Qt Designer/img.qrc"/>
+  <include location="login.qrc"/>
  </resources>
  <connections/>
 </ui>
